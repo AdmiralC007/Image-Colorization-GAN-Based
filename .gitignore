@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large training outputs (keep final checkpoint manually)
+outputs/checkpoints/*
+!outputs/checkpoints/gen_epoch_99.pth
